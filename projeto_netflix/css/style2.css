@@ -1,0 +1,480 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+@font-face {
+    font-family: 'Net-Flix-Bold';
+    src: url('Netflix_Sans_Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Net-flix-font';
+    src: url('NetflixSans-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right: -1%;
+}
+
+div.BackG {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.664)),  url(image/background.png);
+    width: 100%;
+    height: 780px;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    margin:0;
+    font-family: 'Net-flix-font';
+}
+
+.logo{
+    margin-top: 1%;
+    margin-left: 17%;
+}
+
+div.principal_1 {
+    display: flex;
+}
+
+div.idioma select{
+    font-family: 'Net-flix-font';
+    background-color: black;
+    color:white;
+    opacity: 0.7;;
+    margin-left: 160%;
+    margin-top: 17%;
+    border: 1.5px solid;
+    border-radius: 5%;
+    border-color: white;
+    width: 140px;
+    height: 31px;
+    font-size: 16px;
+    margin-left: 981%;
+    margin-top: 2%;
+    padding-left:2%;
+}  
+
+div.entrar input{
+    font-family: 'Net-Flix-Bold';
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 1.5px solid;
+    border-radius: 7%;
+    border-color: rgb(255, 0, 0);
+    width: 70px;
+    height: 31px;
+    font-size: 14px;
+    margin-left: 2000%;
+    margin-top: 5%;
+    padding-left: 11%;
+}
+
+h1{
+    font-family: 'Net-Flix-Bold';
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.Texto{
+    font-family: 'Net-flix-font';
+    color:white;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+div.principal_2 {
+    display: flex;
+}
+
+div.e-mail input{
+    font-family: 'Net-flix-font';
+    background-color: black;
+    opacity: 0.5;
+    color:rgb(255, 255, 255);
+    text-decoration: rgb(255, 255, 255);
+    border: 1.5px solid;
+    border-radius: 4px;
+    height: 56px;
+    width: 500px;
+    font-size: 18px;
+    padding-left: 4%;
+    margin-left: 110%;
+}
+
+div.vamos input{
+    font-family: 'Net-flix-font';
+    background-color: red;
+    color:white;
+    border-radius: 4%;
+    border-color: red;
+    height: 56px;
+    width: 180px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 310%;
+    font-size: 24px;
+}
+
+div.tarja {
+    margin-top: 5%;
+    margin-left: 3%;
+    height: 60px;
+}
+
+div.Ap_TV {
+    font-family: 'Net-flix-font';
+    color: white;
+    font-size: 37px;
+    margin-left: 20%;
+    margin-top: 9%;
+}
+
+div.Texto_2 {
+    font-family: 'Net-flix-font';
+    color: white;
+    font-size: 23px;
+    margin-top: 16%;
+    margin-left: -22%;
+}
+div.Gif_1 {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+div.principal_3 {
+    display: flex;
+}
+
+div.linha {
+    width: 100%;
+    margin-top: 5%;
+}
+
+div.principal_4 {
+    display: flex;
+}
+
+div.Gif_2 {
+    margin-top: 6%;
+    margin-left: 14%;
+}
+div.ass_onde_quiser {
+    font-family: 'Net-flix-font';
+    color: white;
+    font-size: 37px;
+    margin-top: 11%;
+    margin-left: 2%;
+}
+
+div.Texto_3 {
+    font-family: 'Net-flix-font';
+    color: white;
+    font-size: 23px;
+    margin-top: 18%;
+    margin-left: -27%;
+}
+
+div.principal_5 {
+    display: flex;
+}
+
+div.Perfil_infantil{
+    font-family: 'Net-flix-font';
+    color: white;
+    font-size: 37px;
+    margin-top: 11%;
+    margin-left: 14%;
+}
+
+div.Texto_4 {
+    font-family: 'Net-flix-font';
+    color: white;
+    font-size: 23px;
+    margin-top: 18%;
+    margin-left: -33%;
+}
+
+div.Infantil {
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+div.principal_6 {
+    display: flex;
+}
+
+div.Print_baixar {
+    margin-top: 6%;
+    margin-left: 14%;
+}
+
+div.baixe_séries{
+    font-family: 'Net-flix-font';
+    color: white;
+    font-size: 37px;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+
+div.Texto_5 {
+    font-family: 'Net-flix-font';
+    color: white;
+    font-size: 23px;
+    margin-top: 18%;
+    margin-left: -23.10%;
+}
+
+div.Perguntas {
+    font-family: 'Net-Flix-Bold';
+    color: white;
+    text-align: center;
+    font-size: 38px;
+}
+
+div.enquete select{
+    font-family: 'Net-Flix-Bold';
+    background-color: rgb(53, 49, 49);
+    color: white;
+    margin-left: 23%;
+    padding: 22px;
+    font-size: 22px;
+    padding-left: 22px;
+    padding-right: 150px;
+    text-align: left;
+    width: 1100px;
+}
+
+div.enquete_2 select {
+    font-family: 'Net-Flix-Bold';
+    background-color: rgb(53, 49, 49);
+    color: white;
+    margin-left: 23%;
+    padding: 22px;
+    font-size: 22px;
+    padding-left: 22px;
+    padding-right: 150px;
+    text-align: left;
+    width: 1100px;
+}
+
+div.enquete_3 select {
+    font-family: 'Net-Flix-Bold';
+    background-color: rgb(53, 49, 49);
+    color: white;
+    margin-left: 23%;
+    padding: 22px;
+    font-size: 22px;
+    padding-left: 22px;
+    padding-right: 150px;
+    text-align: left;
+    width: 1100px;
+}
+
+div.enquete_4 select {
+    font-family: 'Net-Flix-Bold';
+    background-color: rgb(53, 49, 49);
+    color: white;
+    margin-left: 23%;
+    padding: 22px;
+    font-size: 22px;
+    padding-left: 22px;
+    padding-right: 150px;
+    text-align: left;
+    width: 1100px;
+}
+
+div.enquete_5 select {
+    font-family: 'Net-Flix-Bold';
+    background-color: rgb(53, 49, 49);
+    color: white;
+    margin-left: 23%;
+    padding: 22px;
+    font-size: 22px;
+    padding-left: 22px;
+    padding-right: 150px;
+    text-align: left;
+    width: 1100px;
+}
+
+div.enquete_6 select {
+    font-family: 'Net-Flix-Bold';
+    background-color: rgb(53, 49, 49);
+    color: white;
+    margin-left: 23%;
+    padding: 22px;
+    font-size: 22px;
+    padding-left: 22px;
+    padding-right: 150px;
+    text-align: left;
+    width: 1100px;
+}
+
+div.Texto_6 {
+    font-family: 'Net-flix-font';
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-left: -4%;
+}
+
+div.Duvidas {
+    font-family: 'Net-flix-font';
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+div.Faq_1 {
+    display: flex;
+    font-family: 'Net-flix-font';
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+div.Faq_2 {
+    display: flex;
+    font-family: 'Net-flix-font';
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+div.Faq_3 {
+    display: flex;
+    font-family: 'Net-flix-font';
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+div.Faq_4 {
+    display: flex;
+    font-family: 'Net-flix-font';
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+div.Perguntas_frequentes {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+div.Central_de_Ajuda {
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+div.Conta {
+    margin-left: 17%;
+    margin-top: 2%;
+}
+
+div.Media_Center {
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+div.Relações_com_investidores {
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+div.Carreiras {
+    margin-left: 13.30%;
+    margin-top: 1%;
+}
+
+div.Resgatar_cartão_pré-pago {
+    margin-left: 19.54%;
+    margin-top: 1%;
+}
+
+div.Comprar_cartão_pré-pago {
+    margin-left: 13.20%;
+    margin-top: 1%;
+}
+
+div.Formas_de_assistir {
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+div.Termos_de_Uso {
+    margin-left: 16.20%;
+    margin-top: 1%;
+}
+
+div.Privacidade {
+    margin-left: 17.60%;
+    margin-top: 1%;
+}
+
+div.Preferências_de_cookies {
+    margin-left: 18.10%;
+    margin-top: 1%;
+}
+
+div.Informações_corporativas {
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+div.Entre_em_contato {
+    margin-left: 13.60%;
+    margin-top: 1%;
+}
+
+div.Teste_de_velocidade {
+    margin-left: 16.60%;
+    margin-top: 1%;
+}
+
+div.Avisos_legais {
+    margin-left: 15.40%;
+    margin-top: 1%;
+}
+
+div.Só_Netflix {
+    font-family: 'Net-flix-font';
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+div.idioma_2 select{
+    font-family: 'Net-flix-font';
+    background-color: black;
+    color:white;
+    opacity: 0.7;;
+    margin-left: 10%;
+    margin-top: 2%;
+    border: 1.5px solid;
+    border-radius: 5%;
+    border-color: white;
+    width: 140px;
+    height: 31px;
+    font-size: 16px;
+    padding-left: 0%;
+}
+
+div.Netflix_Brasil {
+    font-family: 'Net-flix-font';
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    margin-top: 2%;
+    margin-left: 10%;
+    height: 100px;
+}
