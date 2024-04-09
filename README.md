@@ -1,5 +1,6 @@
 # Front-End Netflix
-Este código foi um exercício no curso de desenvolvimento de sistemas, sendo a primeira atividade de Front-End para testarmos o conhecimento no HTML e CSS.
+Este código foi um exercício no meu curso de desenvolvimento de sistemas, sendo a primeira atividade de Front-End para testarmos o conhecimento no HTML e CSS.
+* Obs: Meu primeiro contato com html e css.
 
 ## TELAS:
 ![tela 1](https://github.com/DevSharkMT/SITE-DE-CADASTRO-E-LOGIN/assets/155767351/4c8a0602-0a76-429f-8d3b-2c9c4aba1101) <br>
