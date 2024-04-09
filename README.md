@@ -1,5 +1,5 @@
 # Front-End Netflix
-Esse código foi feito com intuito de testar as habilidades inicais em relação ao Html e Css, o mesmo não possui banco de dados, código somente visual
+Este código foi um exercício no curso de desenvolvimento de sistemas, sendo a primeira atividade de Front-End para testarmos o conhecimento no HTML e CSS.
 
 ## TELAS:
 ![tela 1](https://github.com/DevSharkMT/SITE-DE-CADASTRO-E-LOGIN/assets/155767351/4c8a0602-0a76-429f-8d3b-2c9c4aba1101) <br>
